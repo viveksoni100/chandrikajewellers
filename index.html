@@ -6,7 +6,7 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<title>Creative Ajax Portfolio Showcase Slider Theme &#8211; Just another WordPress site</title>
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -29,11 +29,6 @@
 		vertical-align: -0.1em !important;
 		background: none !important;
 		padding: 0 !important;
-	}
-	@media screen and (max-width: 360px) {
-		.section-image {
-			background-image: url(slider/chandrika_intro_01_mobile.jpg);
-		}
 	}
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min1852.css?ver=5.3.3' type='text/css' media='all' />
@@ -61,12 +56,25 @@
 <link rel="icon" href="wp-content/uploads/2019/09/cropped-favicon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2019/09/cropped-favicon-180x180.png" />
 <meta name="msapplication-TileImage" content="http://clapat.ro/themes/munio-wordpress/wp-content/uploads/2019/09/cropped-favicon-270x270.png" />
+
+<!-- <style type="text/css">
+	@media only screen and (max-width: 480px) {
+		/*.section-image {
+			background-image: url(slider/chandrika_intro_01_mobile.jpg);
+			background-image: none;
+		}*/
+		body {
+			display: none;
+		}
+	}
+</style> -->
+
 </head>
 
 <body class="home page-template page-template-showcase-page page-template-showcase-page-php page page-id-2512 wp-embed-responsive hidden hidden-ball smooth-scroll scale-title">
 
 	<main>
-    		<!-- Preloader -->
+    	<!-- Preloader -->
         <div class="preloader-wrap">
             <div class="outer">
 				<div class="inner">
@@ -154,7 +162,7 @@
 																					<!-- Section Slide -->
 												<div class="swiper-slide" data-number="01" data-title="" data-subtitle="">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_01.jpg">
+														<div class="slider-one">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -166,7 +174,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="02" data-title="Elegant" data-subtitle="Jewellery">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_02.jpg">
+														<div class="slider-two">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -178,7 +186,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="03" data-title="Flamboyant" data-subtitle="Earrings">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_03.jpg">
+														<div class="slider-three">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -190,7 +198,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="04" data-title="Exquisite" data-subtitle="Pendal Sets">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_04.jpg">
+														<div class="slider-four">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -202,7 +210,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="05" data-title="Designer" data-subtitle="Sets">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_05.jpg">
+														<div class="slider-five">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -214,7 +222,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="06" data-title="World Class" data-subtitle="Jewellery">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_06.jpg">
+														<div class="slider-six">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -226,7 +234,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="07" data-title="Trending" data-subtitle="Fashion">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_07.jpg">
+														<div class="slider-seven">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">
@@ -238,7 +246,7 @@
 																								<!-- Section Slide -->
 												<div class="swiper-slide" data-number="08" data-title="Jewellery" data-subtitle="that mesmerizes the World">
 													<div class="img-mask">
-														<div class="section-image" data-src="slider/chandrika_intro_08.jpg">
+														<div class="slider-eight">
 																												</div>
 													</div>
 																										<a class="title hide-ball" data-type="page-transition" href="#">

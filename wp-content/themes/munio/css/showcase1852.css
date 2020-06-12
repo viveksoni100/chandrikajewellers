@@ -580,6 +580,91 @@
 
 
 @media only screen and (max-width: 767px) {
+
+	/*body {
+		display: none;
+	}*/
+
+	.slider-one {
+		background-image: url("Mobile/chandrika_intro_01_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-two {
+		background-image: url("Mobile/chandrika_intro_02_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-three {
+		background-image: url("Mobile/chandrika_intro_03_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-four {
+		background-image: url("Mobile/chandrika_intro_04_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-five {
+		background-image: url("Mobile/chandrika_intro_05_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-six {
+		background-image: url("Mobile/chandrika_intro_06_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-seven {
+		background-image: url("Mobile/chandrika_intro_07_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
+	.slider-eight {
+		background-image: url("Mobile/chandrika_intro_08_mobile.jpg");
+		position:relative;
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-size: cover;
+		opacity:1;
+	}
 	
 	.title {
 		font-size:50px;
